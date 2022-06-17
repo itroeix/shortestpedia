@@ -48,6 +48,9 @@ const Main = () => {
 
     return (
         <div className="main">
+            <a class="selected">ES</a>
+            <a class="separate">/</a>
+            <a class="changelang" href="/" rel="noreferrer">EN</a>
             <h1>Shortestpedia - Español</h1>
             <div className="search">
                 <input
@@ -58,7 +61,7 @@ const Main = () => {
             </div>
 
             {showResults ? <Results /> : null}
-            <h6>v0.1 (user)</h6>
+            <h6>v0.2 (user)</h6>
             <a href="https://wikipedia.org/" rel="noreferrer" target="_blank">Wikipedia</a>
             <a href="https://mediawiki.org/wiki/API:Main_page/es" rel="noreferrer" target="_blank">Wikipedia API</a>
             <a href="https://github.com/itroeix/shortestpedia" rel="noreferrer" target="_blank">Github</a>

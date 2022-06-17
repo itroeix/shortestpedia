@@ -30,3 +30,11 @@ a{
     color: white;
     opacity: 0.5;
 }
+
+.selected{
+    color: rgb(209, 209, 209);
+}
+
+.separate{
+    color: white;
+}
